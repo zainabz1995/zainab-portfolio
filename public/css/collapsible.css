@@ -1,0 +1,89 @@
+.experience {
+  margin-top: 5%;
+}
+.collapsible {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .collapsible ion-icon {
+    font-size: 50px;
+    color: #00c1ea;
+  }
+
+  .active, .collapsible:hover {
+    background-color: white;
+  }
+  
+  .collapsible:after {
+    /*content: '\002B'; */
+    color: #dddddd;
+    font-weight: bold;
+    float: right;
+    justify-items: center;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+  /*  content: "\2212"; */
+    color: #dddddd;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
+  table {
+    margin: 1%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.employment {
+  color: white;
+}
+
+.collapsible .employ-head {
+  
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-grow: 1;
+
+}
+
+.collapsible .employ-head span {
+  font-size: 25px;
+  padding-inline-start: 20px;
+  padding: 10px 10px 10px 20px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.collapsible .plus ion-icon {
+  float: right;
+}
